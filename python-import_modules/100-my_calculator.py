@@ -20,7 +20,7 @@ if __name__ == "__main__":
             a = int(items[0])
             b = int(items[2])
             print('{} - {} = {}'.format(a, b, sub(a, b)))
-        elif argv[2] == operator[2]:            
+        elif argv[2] == operator[2]:
             a = int(items[0])
             b = int(items[2])
             print('{} * {} = {}'.format(a, b, mul(a, b)))
