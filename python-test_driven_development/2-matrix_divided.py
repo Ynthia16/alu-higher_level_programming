@@ -51,4 +51,4 @@ def matrix_divided(matrix, div):
                 mat.append(float("{:.2f}".format(num / div)))
             new_matrix.append(mat)
             mat = []
-        return 
+        return new_matrix
