@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const big = process.argv.slice(2).map(Number);
 const biggest = big.sort((a, b) => b - a);
 

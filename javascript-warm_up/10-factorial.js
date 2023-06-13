@@ -1,3 +1,4 @@
+#!/usr/bin/node
 function factorial (number) {
     if (isNaN(parseInt(number))) {
       return (1);
